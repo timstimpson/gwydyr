@@ -95,11 +95,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: rgba(1, 1, 1, 0.4);
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'sans-serif';
 	font-size: 36px;
 	color: #8eb640;
 	font-weight: 700;
@@ -108,7 +108,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #ddd;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 15px;
 	padding: 5px 0;
 	border: 2px solid transparent;
@@ -138,10 +138,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 60px;
 }
 .section-title .overlay {
-	padding: 80px 0;
+	padding: 60px 0;
 	background: rgba(0, 0, 0, 0.7);
 }
 .section-title p {
@@ -150,7 +150,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .section-title hr {
 	margin: 0 auto;
-	margin-bottom: 40px;
+/*	margin-bottom: 20px;*/
 }
 .btn-custom {
 	text-transform: uppercase;
@@ -175,7 +175,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/main-gwydyr.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -183,14 +183,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.5);
 }
 .intro h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'sans-serif';
 	color: #fff;
-	font-size: 10em;
+	font-size: 8em;
 	font-weight: 700;
-	margin-top: 0;
+	margin-top: 50px;
 	margin-bottom: 10px;
 }
 .intro span {
@@ -209,6 +209,16 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+
+header .intro-text hr {
+	position: static;
+	align: center;
+}
+
+/*header .intro-text p {
+	padding-top: 25px;
+}*/
+
 /* About Section */
 #about {
 	padding: 120px 0;
@@ -242,7 +252,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/main-gwydyr.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -295,7 +305,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/main-gwydyr.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -415,7 +425,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background: #444 url(../img/main-gwydyr.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 #team .overlay {
